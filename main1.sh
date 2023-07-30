@@ -16,6 +16,8 @@ else
   echo "Created $name_of_directory directory inside $path."
 fi
 
+#Add the following line to the crontab to run the script daily at 07:00 AM:
+0 7 * * * /path/to/check_directory.sh
 
 
 
