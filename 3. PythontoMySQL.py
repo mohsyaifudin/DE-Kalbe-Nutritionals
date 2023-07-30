@@ -3,10 +3,10 @@ import mysql.connector
 
 # Melakukan percobaan koneksi
 conn = mysql.connector.connect(
-    host="your_host",
-    user="your_username",
-    password="your_password",
-    database="your_database_name"
+    host="localhost",
+    user="root",
+    password="data2023",
+    database="kalbe"
 )
 
 # Membuat object cursor sebagai penanda
